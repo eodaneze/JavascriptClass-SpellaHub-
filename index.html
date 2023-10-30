@@ -6,9 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="demo"></h1>
-    <button onclick="window.print()">Print this page</button>
+    <p id="demo"></p>
+  <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+  <button onclick="sayHi()">ADD</button>
 
-    <script src="./05_dataTypes.js"></script>
+  <form>
+     <input type="text" id="name">
+     <button id="submit">Submit</button>
+     <div id="result"></div>
+  </form>
+    <script src="./07_event.js"></script>
 </body>
 </html>
