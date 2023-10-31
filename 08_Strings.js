@@ -26,3 +26,4 @@ let a = "Daniel";
 let b = new String('Daniel');
 console.log(a == b); //true
 console.log(a === b); //false
+
