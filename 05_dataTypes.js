@@ -47,6 +47,8 @@ const cars = ["Saab", "Volvo", "BMW"];
 console.log(cars);
 console.log(cars[0]);
 console.log(Array.isArray(cars));
+// console.clear();
+// console.log(fruits instanceof Array);
 
 const fruits = Array('mango', 'pear', 'apple');
 console.log(fruits);
