@@ -31,3 +31,31 @@ class Cars{
 }
 const car2 = new Cars('ford', 2020);
 console.log(`My car is ${car2.age()} years old`)
+
+//INHERITANCE
+// A class created with a class inheritance inherits all the methods from another class:
+class Car3{
+  constructor(brand){
+    this.carname = brand;
+  }
+  present(){
+    return `I have a ${this.carname}`;
+  }
+}
+class Model extends Car3{
+   constructor(brand, mod){
+      super(brand);
+      this.model = mod;
+   }
+    show(){
+      return `${this.present()}, it is a ${this.model}`;
+   }
+}
+let myCar = new Model('Ford', 'Mustang');
+console.log(myCar.show());
+
+/*  
+ The super() method refers to the parent class.
+ By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
+
+*/
