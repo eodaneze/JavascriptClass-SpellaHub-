@@ -10,3 +10,10 @@ console.log(Math.abs(-4));
 console.log(Math.min(2,3,4,8,9));
 console.log(Math.max(2,3,4,8,9));
 console.log(Math.random());
+console.log(Math.floor(Math.random() * 10)) // generates a random interger from 0 - 10;
+
+// writing a function that will generate a random number anytime the function is called
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) ) + min;
+}
+console.log(getRndInteger(10, 20));
