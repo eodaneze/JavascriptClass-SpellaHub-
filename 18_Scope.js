@@ -29,4 +29,3 @@ function myFunction() {
 //code here cannot use carName
 myFunction()
 console.log(carName);//carName is not defined
-  
