@@ -24,8 +24,7 @@ const myPromise = new Promise((resolve, reject) => {
 myPromise.then((result) => {
      console.log(result);
 }).catch(err => console.log(err))
-
-
+allFunc()
 const allTodo = new Promise((resolve, reject) => {
      const todo = [
         {
