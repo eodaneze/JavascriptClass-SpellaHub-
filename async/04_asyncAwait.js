@@ -20,7 +20,7 @@ async function displayPost(){
         const postList = document.createElement('ul');
         postList.style.display = 'grid';
         postList.style.gridTemplateColumns = '1fr 1fr 1fr';
-        postList.style.gap='2rem'
+        postList.style.gap='2rem';
          posts.forEach(post => {
             const listItem = document.createElement('li')
             listItem.style.backgroundColor = 'white';
